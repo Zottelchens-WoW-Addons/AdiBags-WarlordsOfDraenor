@@ -1,0 +1,23 @@
+filter_name = "Warlords Of Draenor"
+filter_description = "Items from the Warlords Of Draenor expansion."
+filter_author = "Zottelchen"
+prefixes = [
+    "W",
+    "W-",
+    "5.",
+    "WOD",
+    "icon:1109100",
+    "icon:1005027",
+    "icon:1126429",
+    "icon:1126434",
+    "icon:975744",
+    "icon:975746",
+    "icon:1041860",
+]
+
+[replacers]
+ADDON_COLOR = 0xEB9B00
+TOC_VERSION = "100005"
+CURSE_ID = ""
+WAGO_ID = ""
+WOW_INTERFACE_ID = ""
