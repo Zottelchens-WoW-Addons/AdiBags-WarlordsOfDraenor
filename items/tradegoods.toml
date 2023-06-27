@@ -75,6 +75,7 @@ color = 0x0EAD69
 items = [116053, 109125, 109124, 109127, 109126, 109129, 109128, 108334]
 
 [combinable_herbs] #https://www.wowhead.com/items/trade-goods/herbs?filter=166:216:161:107;6:2:1:0;0:0:0:Combine
+enabled_by_default = false
 name = "Combinable Herbs"
 description = { _ = "Combinable herbs were introduced in this addon. Because of that this category includes ALL combinable herbs that were introduced FOR previous expansions.. These combinable herbs were received when harvesting herbs while your profession skill was too low." }
 items = [
@@ -225,8 +226,13 @@ items = [
 name = "Metal & Stone"
 description = { _ = "Metal & Stone used in Blacksmithing." }
 color = 0x6E9075
+items = [109119, 109118, 108257, 115508, 127413, 127390, 127389, 108445]
+
+[combinable_ore] #https://www.wowhead.com/items/trade-goods/herbs?filter=166:216:161:107;6:2:1:0;0:0:0:Combine
+enabled_by_default = false
+name = "Combinable Ore"
+description = { _ = "Combinable ores were introduced in this addon. Because of that this category includes ALL combinable ores that were introduced FOR previous expansions.. These combinable ores were received when harvesting ores while your profession skill was too low." }
 items = [
-    108257,
     108294,
     108295,
     108296,
@@ -244,15 +250,8 @@ items = [
     108308,
     108309,
     108391,
-    108445,
-    109118,
-    109119,
     109991,
     109992,
-    115508,
-    127389,
-    127390,
-    127413,
 ]
 
 [parts]
@@ -266,12 +265,9 @@ name = "Other Tradegoods"
 description = { _ = "Other items used in various professions." }
 color = 0x81F0E5
 items = [
-    108439,
     108738,
     108996,
     109123,
-    109584,
-    109585,
     112270,
     112377,
     113340,
@@ -334,3 +330,9 @@ items = [
     128158,
     128159,
 ]
+
+[archeology]
+name = "Archeology"
+description = { _ = "Archeology items." }
+color = 0x864200
+items = [108439, 109584, 109585]
