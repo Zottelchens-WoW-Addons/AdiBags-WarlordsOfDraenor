@@ -1,0 +1,93 @@
+category_name = "Temporary & Permanent Enhancements"
+category_color = 0x5A7684
+category_description = { _ = "Use these for a powerup!" }
+mergeable = true
+merged_by_default = true
+
+[permanent_enhancements]
+name = "Permanent Enhancements"
+description = { _ = "These are permanent enhancements that you can typically apply to armor to improve it." }
+color = 0x92AFD7
+items = [
+    109120,
+    109122,
+    110617,
+    110618,
+    110619,
+    110620,
+    110621,
+    110624,
+    110625,
+    110626,
+    110627,
+    110628,
+    110631,
+    110632,
+    110633,
+    110634,
+    110635,
+    110638,
+    110639,
+    110640,
+    110641,
+    110642,
+    110645,
+    110646,
+    110647,
+    110648,
+    110649,
+    110652,
+    110653,
+    110654,
+    110655,
+    110656,
+    110682,
+    112093,
+    112115,
+    112160,
+    112164,
+    112165,
+    115973,
+    115975,
+    115976,
+    115977,
+    115978,
+    116117,
+    118008,
+    118015,
+    118441,
+]
+
+[temporary_enhancements]
+name = "Temporary Enhancements"
+description = { _ = "These are temporary enhancements that you can typically apply to armor to improve it." }
+color = 0xC5D1EB
+items = [118391, 116825, 124674, 116826]
+
+[gems]
+name = "Gems"
+description = { _ = "These are gems that you can typically apply to armor to improve it." }
+color = 0xFF00EA
+items = [
+    115803,
+    115804,
+    115805,
+    115806,
+    115807,
+    115808,
+    115809,
+    115811,
+    115812,
+    115813,
+    115814,
+    115815,
+    127414,
+    127415,
+    127416,
+    127760,
+    127761,
+    127762,
+    127763,
+    127764,
+    127765,
+]
