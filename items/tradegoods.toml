@@ -77,6 +77,7 @@ items = [116053, 109125, 109124, 109127, 109126, 109129, 109128, 108334]
 [combinable_herbs] #https://www.wowhead.com/items/trade-goods/herbs?filter=166:216:161:107;6:2:1:0;0:0:0:Combine
 enabled_by_default = false
 name = "Combinable Herbs"
+color = 0x0EAD69
 description = { _ = "Combinable herbs were introduced in this addon. Because of that this category includes ALL combinable herbs that were introduced FOR previous expansions.. These combinable herbs were received when harvesting herbs while your profession skill was too low." }
 items = [
     108318,
@@ -231,6 +232,7 @@ items = [109119, 109118, 108257, 115508, 127413, 127390, 127389, 108445]
 [combinable_ore] #https://www.wowhead.com/items/trade-goods/herbs?filter=166:216:161:107;6:2:1:0;0:0:0:Combine
 enabled_by_default = false
 name = "Combinable Ore"
+color = 0x6E9075
 description = { _ = "Combinable ores were introduced in this addon. Because of that this category includes ALL combinable ores that were introduced FOR previous expansions.. These combinable ores were received when harvesting ores while your profession skill was too low." }
 items = [
     108294,
