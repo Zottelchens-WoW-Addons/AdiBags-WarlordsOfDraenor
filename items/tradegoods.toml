@@ -1,0 +1,336 @@
+category_name = "Tradegoods"
+category_color = 0x786F52
+category_description = { _ = "Trading tradegoods is good. Trade tradegoods for good goods." }
+mergeable = true
+merged_by_default = true
+
+[cloth]
+name = "Cloth"
+description = { _ = "Cloth used in Tailoring." }
+color = 0xFEB95F
+items = [111556, 111557]
+
+[elemental]
+name = "Elemental"
+description = { _ = "Elementals used in all professions." }
+color = 0xC2095A
+items = [120945, 113263, 113264, 113261, 113262]
+
+[enchanting]
+name = "Enchanting"
+description = { _ = "Enchanting materials for enchanting weapons & armor." }
+color = 0x540D6E
+items = [113588, 109693, 115504, 115502, 111245]
+
+[inscription]
+name = "Inscription"
+description = { _ = "Inscription materials for creating glyphs or other paper related goods." }
+color = 0xFFD23F
+items = [
+    112271,
+    112272,
+    112273,
+    112274,
+    112275,
+    112276,
+    112277,
+    112278,
+    112279,
+    112280,
+    112281,
+    112282,
+    112283,
+    112284,
+    112285,
+    112286,
+    112287,
+    112288,
+    112289,
+    112290,
+    112291,
+    112292,
+    112293,
+    112294,
+    112295,
+    112296,
+    112297,
+    112298,
+    112299,
+    112300,
+    112301,
+    112302,
+    112303,
+    112304,
+    112305,
+    112306,
+    113111,
+    113289,
+    114931,
+]
+
+[herbs]
+name = "Herbs"
+description = { _ = "Herbs used in Alchemy & Inscription." }
+color = 0x0EAD69
+items = [116053, 109125, 109124, 109127, 109126, 109129, 109128, 108334]
+
+[combinable_herbs] #https://www.wowhead.com/items/trade-goods/herbs?filter=166:216:161:107;6:2:1:0;0:0:0:Combine
+name = "Combinable Herbs"
+description = { _ = "Combinable herbs were introduced in this addon. Because of that this category includes ALL combinable herbs that were introduced FOR previous expansions.. These combinable herbs were received when harvesting herbs while your profession skill was too low." }
+items = [
+    108318,
+    108319,
+    108320,
+    108321,
+    108322,
+    108323,
+    108324,
+    108325,
+    108326,
+    108327,
+    108328,
+    108329,
+    108330,
+    108331,
+    108332,
+    108333,
+    108335,
+    108336,
+    108337,
+    108338,
+    108339,
+    108340,
+    108341,
+    108342,
+    108343,
+    108344,
+    108345,
+    108346,
+    108347,
+    108348,
+    108349,
+    108350,
+    108351,
+    108352,
+    108353,
+    108354,
+    108355,
+    108356,
+    108357,
+    108358,
+    108359,
+    108360,
+    108361,
+    108362,
+    108363,
+    108364,
+    108365,
+    109624,
+    109625,
+    109626,
+    109627,
+    109628,
+    109629,
+]
+
+# APPARENTLY NOTHING? https://www.wowhead.com/items/trade-goods/jewelcrafting?filter=166:216:161;6:2:1;0:0:0
+#[jewelcrafting]
+#name = "Jewelcrafting"
+#description = { _ = "Jewelcrafting materials for creating rings, necklaces, gems, etc." }
+#color = 0x090446
+#items = []
+
+[leather]
+name = "Leather"
+description = { _ = "Leather used in Leatherworking." }
+color = 0x563635
+items = [
+    110609,
+    110610,
+    110611,
+    112155,
+    112156,
+    112157,
+    112158,
+    112177,
+    112178,
+    112179,
+    112180,
+    112181,
+    112182,
+    112183,
+    112184,
+    112185,
+]
+
+[meat_and_fish]
+name = "Meat & Fish"
+description = { _ = "Meat & Fish used in Cooking." }
+color = 0xF71735
+items = [
+    109131,
+    109132,
+    109133,
+    109134,
+    109135,
+    109136,
+    109137,
+    109138,
+    109139,
+    109140,
+    109141,
+    109142,
+    109143,
+    109144,
+    111589,
+    111595,
+    111601,
+    111650,
+    111651,
+    111652,
+    111656,
+    111658,
+    111659,
+    111662,
+    111663,
+    111664,
+    111665,
+    111666,
+    111667,
+    111668,
+    111669,
+    111670,
+    111671,
+    111672,
+    111673,
+    111674,
+    111675,
+    111676,
+    116817,
+    116818,
+    116819,
+    116820,
+    116821,
+    116822,
+    118565,
+    122696,
+    124669,
+    127991,
+    127994,
+    128499,
+    128500,
+]
+
+[metal_and_stone] # Rock and stone, brother!
+name = "Metal & Stone"
+description = { _ = "Metal & Stone used in Blacksmithing." }
+color = 0x6E9075
+items = [
+    108257,
+    108294,
+    108295,
+    108296,
+    108297,
+    108298,
+    108299,
+    108300,
+    108301,
+    108302,
+    108303,
+    108304,
+    108305,
+    108306,
+    108307,
+    108308,
+    108309,
+    108391,
+    108445,
+    109118,
+    109119,
+    109991,
+    109992,
+    115508,
+    127389,
+    127390,
+    127413,
+]
+
+[parts]
+name = "Parts"
+description = { _ = "Parts used in Engineering." }
+color = 0x5B6057
+items = [111366, 119299, 114056]
+
+[other]
+name = "Other Tradegoods"
+description = { _ = "Other items used in various professions." }
+color = 0x81F0E5
+items = [
+    108439,
+    108738,
+    108996,
+    109123,
+    109584,
+    109585,
+    112270,
+    112377,
+    113340,
+    113341,
+    113342,
+    113343,
+    113344,
+    113345,
+    113346,
+    113347,
+    113348,
+    113349,
+    113350,
+    113351,
+    113352,
+    113353,
+    113354,
+    113355,
+    114781,
+    114836,
+    115524,
+    115526,
+    116170,
+    116428,
+    116654,
+    118225,
+    118472,
+    118700,
+    118720,
+    118721,
+    118722,
+    118723,
+    119293,
+    119297,
+    120263,
+    120264,
+    122543,
+    127712,
+    127713,
+    127714,
+    127715,
+    127716,
+    127717,
+    127718,
+    127730,
+    127731,
+    127732,
+    127733,
+    127734,
+    127735,
+    127736,
+    127759,
+    128010,
+    128012,
+    128013,
+    128014,
+    128015,
+    128016,
+    128018,
+    128158,
+    128159,
+]
