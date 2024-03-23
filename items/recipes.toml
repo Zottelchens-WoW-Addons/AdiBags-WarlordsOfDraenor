@@ -1,0 +1,386 @@
+category_name = "Recipes"
+category_color = 0x68D080
+category_description = { _ = "Recipes for all professions." }
+mergeable = true
+merged_by_default = true
+
+[alchemy]
+name = "Alchemy Recipes"
+description = { _ = "Recipes for crafting potions, elixirs, and transmuting materials." }
+color = 0x4E9A06
+items = [
+    109558,
+    112022,
+    112023,
+    112024,
+    112026,
+    112027,
+    112030,
+    112031,
+    112033,
+    112034,
+    112037,
+    112038,
+    112039,
+    112040,
+    112041,
+    112042,
+    112043,
+    112045,
+    112047,
+    115356,
+    115357,
+    115358,
+    115359,
+    120132,
+    122599,
+    122600,
+    122605,
+    122710,
+]
+
+[blacksmithing]
+name = "Blacksmithing Recipes"
+description = { _ = "Recipes for forging metal armor, weapons, and enhancements." }
+color = 0x8F8F8F
+items = [
+    116726,
+    116727,
+    116728,
+    116729,
+    116730,
+    116731,
+    116732,
+    116733,
+    116734,
+    116735,
+    116736,
+    116737,
+    116738,
+    116739,
+    116740,
+    116741,
+    116742,
+    116743,
+    116744,
+    116745,
+    116746,
+    118044,
+    119329,
+    120129,
+    120260,
+    120262,
+    122550,
+    122552,
+    122705,
+    127725,
+    127727,
+    127743,
+    127745,
+]
+
+[enchanting]
+name = "Enchanting Recipes"
+description = { _ = "Recipes for enchanting gear with magical properties." }
+color = 0x5C3566
+items = [
+    111922,
+    118394,
+    118429,
+    118430,
+    118432,
+    118433,
+    118434,
+    118435,
+    118437,
+    118438,
+    118439,
+    118440,
+    118442,
+    118443,
+    118444,
+    118445,
+    118447,
+    118453,
+    118454,
+    118455,
+    118457,
+    118458,
+    118460,
+    118461,
+    118462,
+    118463,
+    118464,
+    118467,
+    120135,
+    122711,
+]
+
+[engineering]
+name = "Engineering Recipes"
+description = { _ = "Recipes for creating gadgets, explosives, and mechanical devices." }
+color = 0xC4A000
+items = [
+    111921,
+    116142,
+    116144,
+    116146,
+    118476,
+    118477,
+    118478,
+    118480,
+    118481,
+    118484,
+    118485,
+    118487,
+    118488,
+    118489,
+    118490,
+    118491,
+    118492,
+    118493,
+    118495,
+    118497,
+    118498,
+    118499,
+    118500,
+    119177,
+    120134,
+    120267,
+    120268,
+    122546,
+    122554,
+    122712,
+    127721,
+    127729,
+    127739,
+    127747,
+]
+
+# [herbalism]
+# name = "Herbalism Recipes"
+# description = { _ = "Recipes for gathering herbs for use in Alchemy and Inscription." }
+# color = 0x4E9A06
+# items = []
+
+[inscription] # introduced in WotLK
+name = "Inscription Recipes"
+description = { _ = "Recipes for scribing glyphs and crafting scrolls and tomes." }
+color = 0x855C33
+items = [
+    111923,
+    118605,
+    118606,
+    118607,
+    118608,
+    118610,
+    118613,
+    118614,
+    118615,
+    120136,
+    120265,
+    120266,
+    122548,
+    122553,
+    122713,
+    127723,
+    127728,
+    127741,
+    127746,
+    128409,
+    128410,
+    128411,
+    128412,
+    128413,
+    128414,
+]
+
+[jewelcrafting] # introduced in TBC
+name = "Jewelcrafting Recipes"
+description = { _ = "Recipes for cutting gems and crafting jewelry." }
+color = 0xAD7FA8
+items = [
+    116078,
+    116079,
+    116080,
+    116081,
+    116082,
+    116083,
+    116084,
+    116085,
+    116086,
+    116087,
+    116088,
+    116089,
+    116090,
+    116091,
+    116092,
+    116093,
+    116094,
+    116095,
+    116096,
+    116097,
+    116098,
+    116100,
+    116101,
+    116102,
+    116103,
+    116104,
+    116106,
+    116107,
+    116108,
+    116109,
+    120131,
+    122551,
+    122714,
+    127726,
+    127744,
+    127771,
+    127772,
+    127773,
+    127775,
+]
+
+[leatherworking]
+name = "Leatherworking Recipes"
+description = { _ = "Recipes for crafting leather and mail armor." }
+color = 0x8B4513
+items = [
+    116319,
+    116320,
+    116321,
+    116322,
+    116323,
+    116324,
+    116325,
+    116326,
+    116327,
+    116328,
+    116329,
+    116330,
+    116331,
+    116332,
+    116333,
+    116334,
+    116335,
+    116336,
+    116337,
+    116338,
+    116339,
+    116340,
+    116341,
+    116342,
+    116343,
+    116344,
+    116345,
+    116347,
+    116348,
+    116349,
+    116350,
+    120130,
+    120258,
+    122547,
+    122715,
+    127722,
+    127740,
+]
+
+# [mining]
+# name = "Mining Recipes"
+# description = { _ = "Recipes for extracting ores and stones." }
+# color = 0x7F7F7F
+# items = []
+
+# [skinning]
+# name = "Skinning Recipes"
+# description = { _ = "Recipes for harvesting leather from beasts." }
+# color = 0x7B3503
+# items = []
+
+[tailoring]
+name = "Tailoring Recipes"
+description = { _ = "Recipes for weaving cloth armor and other cloth items." }
+color = 0xD3D7CF
+items = [
+    114851,
+    114852,
+    114853,
+    114854,
+    114855,
+    114856,
+    114857,
+    114858,
+    114859,
+    114860,
+    114861,
+    114862,
+    114863,
+    114864,
+    114865,
+    114866,
+    114868,
+    114869,
+    114870,
+    114871,
+    114872,
+    120128,
+    122549,
+    122716,
+    127724,
+    127742,
+]
+
+[cooking]
+name = "Cooking Recipes"
+description = { _ = "Recipes for preparing food that provides buffs." }
+color = 0xE9B96E
+items = [
+    118310,
+    118311,
+    118312,
+    118313,
+    118314,
+    118315,
+    118316,
+    118317,
+    118318,
+    118319,
+    118320,
+    118321,
+    118322,
+    118323,
+    118324,
+    118325,
+    118326,
+    118327,
+    118328,
+    118329,
+    122555,
+    122556,
+    122557,
+    122558,
+    122559,
+    122560,
+    126927,
+    126928,
+    126929,
+    128501,
+]
+
+# [Fishing]
+# name = "Fishing Recipes"
+# description = { _ = "Recipes for catching fish and other underwater items." }
+# color = 0x3465A4
+# items = []
+
+# [Archaeology] # introduced in Cataclysm
+# name = "Archaeology Recipes"
+# description = { _ = "Recipes for uncovering artifacts and historical items." }
+# color = 0xC17D11
+# items = []
+
+# [First_Aid] # gone with BFA
+# name = "First Aid Recipes"
+# description = { _ = "Recipes for crafting bandages and anti-venoms." }
+# color = 0xCC0000
+# items = []
